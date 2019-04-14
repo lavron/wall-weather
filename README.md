@@ -1,6 +1,6 @@
 # Weather station for e-ink display.
 
-![image](https://lh3.googleusercontent.com/gMybNRog7fk-D3e8p69EtuSktHXnsDSaokpgF10C1JNq9TfwrDHs2AZbp2Z2eWsaIqP25KIRcAHjwuPWOE87NXIG3aVY1tQvpN0mSFz5yThAQYfHNG2ib5SzuYMRslCayxgr3A7tj4FPMmNOg3P-k7C1SPLFpuxZJknXXZKcbd21u9NokfwbVtUl3kDoVpH37CzMTWv4xZ-96wS7lVfv9rb9VAh1KxHYEg5Zy1hi1SUQRQqTUfMW9A0AWTmLWX4V8WCnNs6be_mF8lJ4WOf7yWbJ7HAIqYyBzIWubLm9254LPFLAqvlQ5HeLItTtCztit2-UN8WAz1TfKfN1jAQadUGIAIbB10m-LiMzk6DBX2c9Sjte3NV6ZVwu5dYLHsKBd6-VGYICouUsR6rEYCaOgtvC2qFpONQxmMJSm0fIOYMn55LdOz4e6v10k4-vWSgq9mKCbttvNs0SayFgpeH7XSlrxCmo-W8C81XD1az69gRd6gn42Uh9Q-GRLN6hS--JKK_FNME4Ed6-oiukFf41OjqkwB5Pgob5Um_Kwd6o5oAmE8EGjJfBhB8Rh09NGmZTq7qP0NT8riOIeu7Z4Ow4c5WGSs_t9gHw3lN0r3ZWetH21Xpwp-MLHGZ99RTtmSG29u3FHyzQoEViaAufOYnnwWwn3PYlImq7=w2190-h1642-no) 
+![image](https://lavron.info/esp8266-esp32-e-paper-weather-station.jpg) 
 
 Supports the 2-Colour version of the 7.5" E-Paper display from waveshare/gooddisplay and works with ESP8266/ESP32.
 
