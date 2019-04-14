@@ -126,30 +126,24 @@ void get_weather() {
 
       JsonObject root = jsonDocument.as<JsonObject>();
 
-      const char* icon_temp;
-      const char* last_update_time_temp;
-
       String weather_summary_new, payload_new;
 
-      temp_n = root["message"]["now"]["temp"];
-      temp_d_max = root["message"]["today"]["temp_max"];
-      temp_d_min = root["message"]["today"]["temp_min"];
-      temp_t_max = root["message"]["tomorrow"]["temp_max"];
-      temp_t_min = root["message"]["tomorrow"]["temp_min"];
+      temp_n = root["message"]["now"]["temp"].as<int>();
+      temp_d_max = root["message"]["today"]["temp_max"].as<int>();
+      temp_d_min = root["message"]["today"]["temp_min"].as<int>();
+      temp_t_max = root["message"]["tomorrow"]["temp_max"].as<int>();
+      temp_t_min = root["message"]["tomorrow"]["temp_min"].as<int>();
 
-      rain_d = root["message"]["today"]["rain"];
-      rain_t = root["message"]["tomorrow"]["rain"];
+      rain_d = root["message"]["today"]["rain"].as<int>();
+      rain_t = root["message"]["tomorrow"]["rain"].as<int>();
 
 
-      icon_temp = root["message"]["now"]["icon"];
-      icon_n = icon_temp;
-      icon_temp = root["message"]["today"]["icon"];
-      icon_d = icon_temp;
-      icon_temp = root["message"]["tomorrow"]["icon"];
-      icon_t = icon_temp;
-
-      last_update_time_temp = root["message"]["time"];
-      last_update_time = last_update_time_temp;
+      icon_n = root["message"]["now"]["icon"].as<const char*>();
+      icon_d = root["message"]["today"]["icon"].as<const char*>();
+      icon_t = root["message"]["tomorrow"]["icon"].as<const char*>();
+      
+      last_update_time = root["message"]["time"].as<const char*>();
+       
 
       if (payload_new == payload) {
         Serial.println("no REFRESH_NEED");
