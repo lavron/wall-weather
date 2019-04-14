@@ -5,9 +5,9 @@
 Supports the 2-Colour version of the 7.5" E-Paper display from waveshare/gooddisplay and works with ESP8266/ESP32.
 
 Dependenices:
-https://arduinojson.org/v6/api/jsondocument
-https://github.com/adafruit/Adafruit-GFX-Library
-https://github.com/ZinggJM/GxEPD2
+https://arduinojson.org/v6/api/jsondocument  
+https://github.com/adafruit/Adafruit-GFX-Library  
+https://github.com/ZinggJM/GxEPD2  
 
 More photos here:
 
