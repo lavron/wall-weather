@@ -7,8 +7,8 @@
 
 #define TIME_OFFSET 3UL * 3600UL // UTC + 3 hour
 
-#define SSID "iot"
-#define SSID_PASSWORD "Deadbobr23!"
+#define SSID "wifi"
+#define SSID_PASSWORD "pswd"
 
 #define ENABLE_GxEPD2_GFX 0
 #define GxEPD_YELLOW       0xFFE0
